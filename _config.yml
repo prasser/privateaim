@@ -63,7 +63,7 @@ yat:
 # header_transparent: true
 
 # If you want to change the content width, you can set to another value
-# content_width: "920px"
+# content_width: "1200px"
 
 # Google analytics
 # google_analytics: [Tracking ID]
@@ -146,12 +146,12 @@ yat:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-# header_pages:
-#   - index.html
-#   - archives.html
-#   - categories.html
-#   - tags.html
-#   - about.md
+ header_pages:
+   - index.html
+   - about.html
+   - team.html
+   - publications.html
+   - contact.html
 
 # Page default value
 # defaults:
