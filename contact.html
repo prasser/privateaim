@@ -1,12 +1,11 @@
 ---
-layout: about
+layout: framework
 title: Kontakt
 ---
 <style>
     table {
         width: 100%;
         border-collapse: collapse;
-        visibility: hidden;
     }
   
     td {
@@ -19,14 +18,29 @@ title: Kontakt
 
     .image-container {
         width: 50%;
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
     }
 
     .smaller-text {
         font-size: 10px;
+        text-align: center;
+    }
+
+    .normal-text {
+        font-size: 18px;
     }
 
     .cell-width {
         width: 55%;
+    }
+
+    p {
+        font-size: 18px;
     }
 </style>
 <h2>Treten Sie mit uns in Kontakt!</h2>
@@ -38,7 +52,7 @@ Veröffentlichungen, Informationen zu kommenden Veranstaltungen und vieles mehr.
 <h2>Ansprechpartner</h2>
 <table>
     <tr>
-        <td class="cell-width">
+        <td class="cell-width normal-text">
             <b>Prof. Dr. Oliver Kohlbacher</b><br>
             Institut für Translationale Bioinformatik<br>
             Universitätsklinikum Tübingen<br>
@@ -47,10 +61,10 @@ Veröffentlichungen, Informationen zu kommenden Veranstaltungen und vieles mehr.
             Telefon/Fax: +49 7071 70458 / - 5152<br>
             E-Mail: oliver.kohlbacher@uni-tuebingen.de
         </td>
-        <td><div class="image-container"><img src="/assets/images/Kohlbacher.jpg" alt="Prof. Kohlbacher"></div><p class="smaller-text"><br>Prof. Dr. Oliver Kohlbacher<br>© Jörg Jäger/Universität Tübingen</p></td>
+        <td><div class="image-container"><img src="/assets/images/contacts/Kohlbacher.jpg" alt="Prof. Kohlbacher"></div><p class="smaller-text"><br>Prof. Dr. Oliver Kohlbacher<br>© Jörg Jäger/Universität Tübingen</p></td>
     </tr>
     <tr>
-        <td class="cell-width">
+        <td class="cell-width normal-text">
             <b>Prof. Dr. Fabian Prasser</b><br>
             Medizinische Informatik<br>
             Berlin Institute of Health in der Charité - Universitätsmedizin Berlin<br>
@@ -58,10 +72,10 @@ Veröffentlichungen, Informationen zu kommenden Veranstaltungen und vieles mehr.
             Telefon: +49 152 04 31 80 73<br>
             E-Mail: fabian.prasser@charite.de
         </td>
-        <td><div class="image-container"><img src="/assets/images/Prasser.jpg" alt="Prof. Prasser"></div><p class="smaller-text"><br>Prof. Dr. Fabian Prasser<br>© Peitz/Charité</p></td>
+        <td><div class="image-container"><img src="/assets/images/contacts/Prasser.jpg" alt="Prof. Prasser"></div><p class="smaller-text"><br>Prof. Dr. Fabian Prasser<br>© Peitz/Charité</p></td>
     </tr>
     <tr>
-        <td class="cell-width">
+        <td class="cell-width normal-text">
             <b>Prof. Dr. Daniel Rückert</b><br>
             Institut für KI und Informatik in der Medizin<br>
             Klinikum rechts der Isar, Technische Universität München<br>
@@ -71,7 +85,7 @@ Veröffentlichungen, Informationen zu kommenden Veranstaltungen und vieles mehr.
             Telefon: +49 89 4140 8587<br>
             E-Mail: daniel.rueckert@tum.de
         </td>
-        <td><div class="image-container"><img src="/assets/images/Rückert.jpg" alt="Prof. Rückert"></div><p class="smaller-text"><br>Prof. Dr. Daniel Rückert<br>© Humboldt-Stiftung</p></td>
+        <td><div class="image-container"><img src="/assets/images/contacts/Rückert.jpg" alt="Prof. Rückert"></div><p class="smaller-text"><br>Prof. Dr. Daniel Rückert<br>© Humboldt-Stiftung</p></td>
     </tr>
 </table>
   
