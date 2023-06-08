@@ -131,6 +131,7 @@ header_pages:
   - about.html
   - team.html
   - publications.html
+  - news.html
   - contact.html
 
 # Page default value
