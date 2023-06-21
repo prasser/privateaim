@@ -2,8 +2,12 @@
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
-    <img class="site-favicon" src="{{ site.favicon-bmbf }}" onerror="this.style.display='none'">
-    <p><em><center>Dieses Projekt wird im Rahmen der Förderinitiative "xxx" unter der Fördervereinbarung Nr. 123456789-0 finanziert.</center></em></p>
+    <p>
+      <center>
+        <img class="site-favicon" src="{{ site.favicon-bmbf }}" onerror="this.style.display='none'" width="200" height="150">
+        <em>Dieses Projekt wird im Rahmen der Förderinitiative "xxx" unter der Fördervereinbarung Nr. 123456789-0 finanziert.</em>
+      </center>
+    </p>
     <div class="site-footer-inner">
         {%- assign currentYear = 'now' | date: "%Y" -%}
         {%- assign copyright = site.copyright
