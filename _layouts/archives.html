@@ -4,6 +4,7 @@ sidebar: archive-list
 ---
 
 {%- if site.posts.size > 0 -%}
+
   {% include functions.html func='log' level='debug' msg='Get datetimes value' %}
 
   {% assign filter = '%Y' %}
@@ -12,19 +13,6 @@ sidebar: archive-list
 
   {% assign keys = datetimes | reverse %}
   {% assign field = 'date' %}
+  {% include views/segments.html %}
 
-  {% for key in keys %}
-    {% assign posts = site.posts | where: field, key %}
-    {% for post in posts %}
-      {% capture post_text %}
-        {% include post.content %}
-      {% endcapture %}
-
-      <div class="post">
-        <h2>{{ post.title }}</h2>
-        <p>{{ post_text }}</p>
-      </div>
-    {% endfor %}
-  {% endfor %}
 {%- endif -%}
-
