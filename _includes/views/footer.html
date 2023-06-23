@@ -2,12 +2,16 @@
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
-    <p>
-      <center>
-        <p><img class="site-favicon" src="/assets/images/bmbf.png" onerror="this.style.display='none'" width="150" height="75">
-        Dieses Projekt wird im Rahmen der Medizininformatik-Initiative unter dem Förderkennzeichen 01ZZ2316A-O finanziert.</em></p>
-      </center>
-    </p>
+    <table>
+      <tr>
+        <td class="visible">
+          <img class="site-favicon" src="/assets/images/bmbf.png" onerror="this.style.display='none'" width="150" height="75">
+        </td>
+        <td class="visible">
+          <p>Dieses Projekt wird im Rahmen der Medizininformatik-Initiative unter dem Förderkennzeichen 01ZZ2316A-O finanziert.</p>
+        </td>
+      </tr>
+    </table>
     <div class="site-footer-inner">
         {%- assign currentYear = 'now' | date: "%Y" -%}
         {%- assign copyright = site.copyright
