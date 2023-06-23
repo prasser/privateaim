@@ -41,33 +41,34 @@ banner: "/assets/images/banners/home.jpeg"
         margin: 20px 0;
     }
 
-    @media (max-width: 767px) {
-        .table {
+    @media only screen and (max-width: 767px) {
+        td {
+            display: block;
             width: 100%;
         }
-        .table-row {
-            display: flex;
-            flex-direction: column;
+        
+        td.logo {
+            width: 100%;
         }
-        .table-cell {
+        
+        td.text {
             width: 100%;
         }
     }
 
 </style>
 
-<table class="table" style="border-collapse: collapse; width: 100%;">
-    <tr class="table-row">
-        <td class="visible logo table-cell" colspan="2">
-            <img src="/assets/images/PrivateAIM_logo.png" alt="Logo">
+<table>
+    <tr>
+        <td class="visible logo">
+            <img src="/assets/images/PrivateAIM_logo.png" alt="Logo" >
         </td>
-    </tr>
-    <tr class="table-row">
-        <td class="visible text table-cell" colspan="2">
+        <td class="visible text">
             <p>
                 Ziel des „Privacy-Preserving Analytics in Medicine“ (PrivateAIM) Projekts ist es, 
                 eine föderierte Plattform für datenschutzgerechtes maschinelles Lernen und 
-                Datenanalytik zu entwickeln. Dafür werden maßgeschneiderte KI-Methoden und 
+                Datenanalytik zu entwickeln.
+                Dafür werden maßgeschneiderte KI-Methoden und 
                 Föderationsmechanismen entwickelt, um eine sichere und verteilte Auswertung 
                 von medizinischen Daten zu ermöglichen. Dadurch bleiben Identitäten und sensible 
                 Gesundheitsinformationen der Patientinnen und Patienten geschützt und können 
