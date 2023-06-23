@@ -26,10 +26,6 @@ banner: "/assets/images/banners/home.jpeg"
         width: 50%;
     }
 
-    .bmbf {
-        width: 100px;
-    }
-
     td.text {
         width: 50%;
     }
@@ -43,6 +39,16 @@ banner: "/assets/images/banners/home.jpeg"
         background-image: linear-gradient(to right, transparent, grey, transparent);
         border: none;
         margin: 20px 0;
+    }
+
+    @media (max-width: 767px) {
+        .table-row {
+            display: flex;
+            flex-direction: column;
+        }
+        .table-cell {
+            width: 100%;
+        }
     }
 
 </style>
