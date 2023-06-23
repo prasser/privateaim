@@ -42,6 +42,9 @@ banner: "/assets/images/banners/home.jpeg"
     }
 
     @media (max-width: 767px) {
+        .table {
+            width: 100%;
+        }
         .table-row {
             display: flex;
             flex-direction: column;
@@ -53,7 +56,7 @@ banner: "/assets/images/banners/home.jpeg"
 
 </style>
 
-<table>
+<table class="table" style="border-collapse: collapse; width: 100%;">
     <tr class="table-row">
         <td class="visible logo table-cell" colspan="2">
             <img src="/assets/images/PrivateAIM_logo.png" alt="Logo">
