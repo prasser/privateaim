@@ -25,7 +25,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: PrivateAIM
-email: your-email@domain.com
+email: info@privateaim.org
 author: AbuAttieh
 
 # Copyright setting
@@ -42,10 +42,7 @@ author: AbuAttieh
 #
 copyright: "PrivateAIM (cleft) {currentYear}"
 
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: Website of the PrivateAIM project.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://github.com/AbuAttieh/abuattieh.github.io" # the base hostname & protocol for your site, e.g. https://example.com
